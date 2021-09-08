@@ -31,3 +31,10 @@ ui <- fluidPage(
                                 tableOutput("table1")))
            )
 )
+
+server <- function(input, output,session) {
+    
+}
+
+# Run the application 
+shinyApp(ui = ui, server = server)
